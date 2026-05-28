@@ -1,4 +1,4 @@
-package ai0521.rabbit;
+package ai0528.access;
 
 public class Rabbit {
     private String shape;
@@ -54,7 +54,7 @@ public class Rabbit {
         this.shape = shape;
     }
 
-    public void printInfo(){
+    public void printInfo() {
         System.out.printf("%s 모양의 토끼는 (%d, %d) 좌표에 위치하고 있다. \n", this.shape, this.xPos, this.yPos);
     }
 }
